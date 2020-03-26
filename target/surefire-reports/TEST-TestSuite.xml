@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="0" tests="0" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="Webdriver GPFE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="b85a510285307c4e"/>
+    <property name="POM_ARTIFACTID" value="CucumberFramework"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="CucumberFramework"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\windows\TEMP"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="SNARoot" value="C:\Program Files\Microsoft Host Integration Server\system"/>
+    <property name="WINSW_SERVICE_ID" value="Jenkins"/>
+    <property name="user.name" value="LAPG984035$"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
+    <property name="HISDeployDir" value="C:\Program Files\Microsoft Host Integration Server\Deployment"/>
+    <property name="user.language" value="fr"/>
+    <property name="JOB_BASE_NAME" value="Webdriver GPFE"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Webdriver%20GPFE/15/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#15"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="SNARootWow64" value="C:\Program Files\Microsoft Host Integration Server\SysWOW64"/>
+    <property name="LOCALAPPDATA" value="C:\windows\system32\config\systemprofile\AppData\Local"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="Fsecure" value="29010FSMS01"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Africa/Casablanca"/>
+    <property name="USERNAME" value="LAPG984035$"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="C:\Users\u984035\Downloads\Soft\apache-maven-3.6.2-bin\apache-maven-3.6.2\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="WSO2AM300_JAVA_HOME" value="C:\Program Files\WSO2\API Manager\3.0.0\jdk\jdk8u212-b03"/>
+    <property name="SNAServer1" value="29010HIS01"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="FR"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="WSO2AM300_HOME" value="C:\Program Files\WSO2\API Manager\3.0.0\bin\.."/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_191\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Webdriver%20GPFE/15/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\windows\TEMP"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Webdriver%20GPFE/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JAVA_HOME" value="C:\Program Files (x86)\Java\jdk1.8.0_191"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
+    <property name="ComSpec" value="C:\windows\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="LAPG984035"/>
+    <property name="SERVICE_ID" value="Jenkins"/>
+    <property name="POM_GROUPID" value="com.webdriver"/>
+    <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
+    <property name="user.home" value="C:\windows\system32\config\systemprofile"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-Webdriver GPFE-15"/>
+    <property name="JENKINS_SERVER_COOKIE" value="b85a510285307c4e"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\windows\system32\config\systemprofile"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_191\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\u984035\Downloads\Soft\apache-maven-3.6.2-bin\apache-maven-3.6.2/bin;C:\Program Files (x86)\Java\jdk1.8.0_191/bin;C:\Program Files (x86)\Java\jdk1.8.0_191/bin;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Microsoft Host Integration Server\system;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Microsoft Host Integration Server\SysWOW64;C:\Program Files (x86)\Personal Communications\;C:\Program Files (x86)\IBM\Trace Facility\;C:\Program Files (x86)\Java\jdk1.8.0_191\bin;C:\Program Files (x86)\Java\jre1.8.0_191\bin;C:\Users\u984035\Downloads\Soft\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin;C:\Program Files\Gradle\gradle-6.0.1\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\WSO2\API Manager\3.0.0\bin\..\bin;C:\Program Files\MIT\Kerberos\bin;C:\Program Files\MongoDB\Server\4.2\bin;C:\Users\u984035\AppData\Local\Microsoft\WindowsApps;C:\Users\u984035\.dotnet\tools;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\windows\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\u984035\Downloads\Soft\apache-maven-3.6.2-bin\apache-maven-3.6.2"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\u984035\Downloads\Soft\apache-maven-3.6.2-bin\apache-maven-3.6.2\boot\plexus-classworlds-2.6.0.jar;C:\Users\u984035\Downloads\Soft\apache-maven-3.6.2-bin\apache-maven-3.6.2/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\u984035\Downloads\Soft\apache-maven-3.6.2-bin\apache-maven-3.6.2 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.36.1.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 54258"/>
+    <property name="VS160COMCOMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\"/>
+    <property name="Path" value="C:\Program Files (x86)\Java\jdk1.8.0_191/bin;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Microsoft Host Integration Server\system;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Microsoft Host Integration Server\SysWOW64;C:\Program Files (x86)\Personal Communications\;C:\Program Files (x86)\IBM\Trace Facility\;C:\Program Files (x86)\Java\jdk1.8.0_191\bin;C:\Program Files (x86)\Java\jre1.8.0_191\bin;C:\Users\u984035\Downloads\Soft\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin;C:\Program Files\Gradle\gradle-6.0.1\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\WSO2\API Manager\3.0.0\bin\..\bin;C:\Program Files\MIT\Kerberos\bin;C:\Program Files\MongoDB\Server\4.2\bin;C:\Users\u984035\AppData\Local\Microsoft\WindowsApps;C:\Users\u984035\.dotnet\tools"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="PATH+JDK" value="C:\Program Files (x86)\Java\jdk1.8.0_191/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\u984035\Downloads\Soft\apache-maven-3.6.2-bin\apache-maven-3.6.2"/>
+    <property name="SRVNumara" value="29010Rnumara01"/>
+    <property name="java.io.tmpdir" value="C:\windows\TEMP\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\u984035\Downloads\Soft\apache-maven-3.6.2-bin\apache-maven-3.6.2/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Webdriver%20GPFE/15/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\windows"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_191\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\u984035\Cucumber\CucumberFramework"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Webdriver%20GPFE/"/>
+    <property name="USERDOMAIN" value="GBP"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="C:\Users\u984035\Downloads\Soft\apache-maven-3.6.2-bin\apache-maven-3.6.2"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="15"/>
+    <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="8e0c"/>
+    <property name="UATDATA" value="C:\windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\windows"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE" value="C:\Program Files (x86)\Jenkins\workspace\Webdriver GPFE"/>
+    <property name="ChocolateyInstall" value="C:\ProgramData\chocolatey"/>
+    <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="PCOMM_Root" value="C:\Program Files (x86)\Personal Communications\"/>
+    <property name="WSUSServer" value="http://29010wsus01.GBP.CPM.NET"/>
+  </properties>
+</testsuite>
