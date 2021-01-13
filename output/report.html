@@ -4,7 +4,7 @@
 
 
 <head>
-	<meta charset='utf-8' /> 
+	<meta charset='UTF-8' /> 
 	<meta name='description' content='' />
 	<meta name='robots' content='noodp, noydir' />
 	<meta name='viewport' content='width=device-width, initial-scale=1' />
@@ -15,9 +15,14 @@
 
 		<link href='https://cdn.rawgit.com/anshooarora/extentreports-java/b4a58fcfd1e137bd9287244035a7c80d3d73b3af/dist/css/extent.css' type='text/css' rel='stylesheet' />
 	
-	<title>ExtentReports</title>
+	<title>ToolsQA - Cucumber Framework</title>
 
 	<style type='text/css'>
+			
+      
+        
+      
+    
 	</style>
 </head>
 
@@ -39,7 +44,7 @@
 		</ul>
 
 		<!-- report name -->
-		<span class='report-name'>ExtentReports</span>
+		<span class='report-name'>ToolsQA - Cucumber Report</span>
 		
 		<!-- report headline -->
 		<span class='report-headline'></span>
@@ -48,7 +53,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Mar 26, 2020 11:38:52 AM</span>
+                    <span class='label suite-start-time blue darken-3'>Jan 13, 2021 01:02:38 AM</span>
 				</a>
 			</li>
 			<li>
@@ -73,9 +78,7 @@
 					<i class='material-icons'>warning</i> Status
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
-											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
-						<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
+											<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -88,7 +91,7 @@
 					<i class='material-icons'>local_offer</i> Category
 				</a>
 				<ul id='category-toggle' class='dropdown-content'>
-					<li><a href='#'>@important</a></li>
+					<li><a href='#'>@Authentication</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
 				</ul>
@@ -166,10 +169,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='33.333%'><span class='strong'>2</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='16.667%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='50%'>3</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -185,62 +188,59 @@
 				
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>fullfill student form if the student is authorized</span>
-						<span class='test-time'>Mar 26, 2020 11:38:52 AM</span>
+						<span class='test-name'>Authentication</span>
+						<span class='test-time'>Jan 13, 2021 01:02:38 AM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenariooutline node' test-id='2' status='fail'>
-	<span class='duration right label'>0h 1m 3s+665ms</span>
+<div class='scenario node' test-id='2' status='fail'>
+	<div class='category-list'>
+		<span class='category label white-text'>@Authentication</span>
+	</div>
+	<span class='duration right label'>0h 0m 22s+284ms</span>
 	<div class='desc'>
-		<b>ScenarioOutline</b>
-		<span class="desc-text">fill the student form and submit</span>
+		<b>Scenario</b>
+		<span class="desc-text">Simple Failed Authentication</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='3' class='node scenario fail' status='fail'>
-			<div class='category-list'>
-				<span class='category label white-text'>@important</span>
-			</div>
+		<li test-id='3' class='node given fail' status='fail'>
 			
-			<b>Scenario</b>
+			<b>Given</b>
 			
-			<span class="bdd-step-name">fill the student form and submit</span>
-			
-				<ul class='steps'>
-					<li test-id='4' class='node given pass' status='pass'><b>Given</b>
-						<span class="bdd-step-name">Given navitate to login "http://localhost:4200/login"</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='5' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And submit "zelkotb" and "mamamangepapa"</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='6' class='node then fail' status='fail'><b>Then</b>
-						<span class="bdd-step-name">Then user is logged in</span>
-							<div class='pre'><pre>java.lang.AssertionError: expected [Student informations s] but found [Student informations]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:190)
-	at org.testng.Assert.assertEquals(Assert.java:200)
-	at steps.FillStudentForm.user_is_logged_in(FillStudentForm.java:31)
-	at ?.Then user is logged in(FillStudentForm.feature:7)
+			<span class="bdd-step-name">Given navitate to welcom page</span>
+			<ul class='screenshots right'>
+				<li><a data-featherlight="image" href="C:\Users\user\eclipse-workspace\cmc\output\Simple_Failed_Authentication.png"><i class='material-icons'>panorama</i></a></li>
+			</ul>
+				<div class='pre'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'mot de passe incorrect')]"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BOLT', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52925}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c521bc0af10159d8821eeacbbae71fd0
+*** Element info: {Using=xpath, value=//div[contains(text(),'mot de passe incorrect')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.BasePage.readText(BasePage.java:129)
+	at pages.LoginPage.checkError(LoginPage.java:52)
+	at steps.AuthenticationSteps.user_is_logged_in_error(AuthenticationSteps.java:48)
+	at steps.AuthenticationSteps.navitate_to_welcom_page(AuthenticationSteps.java:30)
+	at ?.Given navitate to welcom page(authentication.feature:24)
 </pre></div>
-					</li>
-					<li test-id='7' class='node given skip' status='skip'><b>Given</b>
-						<span class="bdd-step-name">Given user fill the form</span>
-							<div class='pre'>skipped</div>
-					</li>
-					<li test-id='8' class='node when skip' status='skip'><b>When</b>
-						<span class="bdd-step-name">When user submit</span>
-							<div class='pre'>skipped</div>
-					</li>
-					<li test-id='9' class='node then skip' status='skip'><b>Then</b>
-						<span class="bdd-step-name">Then pop up appear with successfull</span>
-							<div class='pre'>skipped</div>
-					</li>
-				</ul>
+			
 		</li>
 	</ul>
 </div>
@@ -298,7 +298,7 @@
 				
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@important</span>
+						<span class='category-name'>@Authentication</span>
 						<span class='category-status right'>
 							<span class='label fail'>1</span>
 						</span>
@@ -321,8 +321,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Mar 26, 2020 11:38:52 AM</td>
-										<td class='linked' test-id='3'>fullfill student form if the student is authorized.fill the student form and submit.fill the student form and submit</td>
+										<td>Jan 13, 2021 01:02:38 AM</td>
+										<td class='linked' test-id='2'>Authentication.Simple Failed Authentication</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
@@ -369,7 +369,7 @@
 
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>java.lang.AssertionError</span>
+                                <span class='exception-name'>org.openqa.selenium.NoSuchElementException</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -384,17 +384,36 @@
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Mar 26, 2020 11:39:55 AM</td>
-                                                        <td class='linked' test-id='6'>fullfill student form if the student is authorized.fill the student form and submit.fill the student form and submit.Then user is logged in</td>
-                                                        <td><pre><pre>java.lang.AssertionError: expected [Student informations s] but found [Student informations]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:190)
-	at org.testng.Assert.assertEquals(Assert.java:200)
-	at steps.FillStudentForm.user_is_logged_in(FillStudentForm.java:31)
-	at ?.Then user is logged in(FillStudentForm.feature:7)
+                                                        <td>Jan 13, 2021 01:02:44 AM</td>
+                                                        <td class='linked' test-id='3'>Authentication.Simple Failed Authentication.Given navitate to welcom page</td>
+                                                        <td><pre><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'mot de passe incorrect')]"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BOLT', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52925}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c521bc0af10159d8821eeacbbae71fd0
+*** Element info: {Using=xpath, value=//div[contains(text(),'mot de passe incorrect')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.BasePage.readText(BasePage.java:129)
+	at pages.LoginPage.checkError(LoginPage.java:52)
+	at steps.AuthenticationSteps.user_is_logged_in_error(AuthenticationSteps.java:48)
+	at steps.AuthenticationSteps.navitate_to_welcom_page(AuthenticationSteps.java:30)
+	at ?.Given navitate to welcom page(authentication.feature:24)
 </pre></pre></td>
                                                     </tr>
                                         </tbody>
@@ -433,25 +452,65 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>6</div>
+					<div class='panel-lead'>1</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Mar 26, 2020 11:38:52 AM</div>
+					<div class='panel-lead'>Jan 13, 2021 01:02:38 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Mar 26, 2020 11:39:57 AM</div>
+			 		<div class='panel-lead'>Jan 13, 2021 01:03:02 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 1m 4s+892ms</div>
+					<div class='panel-lead'>0h 0m 24s+278ms</div>
+				</div>
+			</div>
+			<div class='col s4'>
+				<div class='card-panel dashboard-environment'>
+					<span class='right label cyan white-text'>Environment</span><p>&nbsp;</p>
+					
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Value</th>
+						</tr>
+							<tr>
+								<td>User Name</td>
+								<td>EL KOTB ZAKARIA</td>
+							</tr>
+							<tr>
+								<td>Time Zone</td>
+								<td>Africa/Casablanca</td>
+							</tr>
+							<tr>
+								<td>Machine</td>
+								<td>Windows 10</td>
+							</tr>
+							<tr>
+								<td>Selenium</td>
+								<td>3.141.59</td>
+							</tr>
+							<tr>
+								<td>Maven</td>
+								<td>3.6.3</td>
+							</tr>
+							<tr>
+								<td>Java Version</td>
+								<td>11.0.8</td>
+							</tr>
+							<tr>
+								<td>IP@</td>
+								<td>Bolt/192.168.1.102</td>
+							</tr>
+					</table>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -467,7 +526,7 @@
 							<th>Passed %</th>
 						</tr>
 						<tr>
-							<td>@important</td>
+							<td>@Authentication</td>
 							<td>0</td>
 							<td>1</td>
 							<td>0</td>
@@ -505,14 +564,14 @@
 				infoChild: 0,
 				exceptionsChild: 1,
 				
-				passGrandChild: 2,
+				passGrandChild: 0,
 				failGrandChild: 1,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 3,
+				skipGrandChild: 0,
 				infoGrandChild: 0,
-				exceptionsGrandChild: 4,
+				exceptionsGrandChild: 1,
 			};
 		</script>
 		
@@ -520,6 +579,13 @@
 		
 		
  		<script type='text/javascript'>
+ 			
+      
+        $(document).ready(function() {
+        
+        });
+      
+    
  		</script>
 	</body>
 	

@@ -1,8 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Cucumber Framework">
-	<test name="Cucumber Tests" junit="true">
+<suite name="Simple User Suite">
+	<test name="Authentication Test" junit="true">
 		<classes>
-			<class name="CucumberFramework.runner.MainRunner" />
+			<class name="runner.MainRunner" />
 		</classes>
 	</test>
 </suite>

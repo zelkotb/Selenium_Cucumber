@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="0" passed="0">
+<testng-results total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Cucumber Framework" duration-ms="16378" started-at="2020-03-24T19:47:45Z" finished-at="2020-03-24T19:48:01Z">
+  <suite started-at="2021-01-13T00:02:37Z" name="Simple User Suite" finished-at="2021-01-13T00:03:02Z" duration-ms="25494">
     <groups>
     </groups>
-    <test name="Cucumber Tests" duration-ms="16378" started-at="2020-03-24T19:47:45Z" finished-at="2020-03-24T19:48:01Z">
-    </test> <!-- Cucumber Tests -->
-  </suite> <!-- Cucumber Framework -->
+    <test started-at="2021-01-13T00:02:37Z" name="Authentication Test" finished-at="2021-01-13T00:03:02Z" duration-ms="25494">
+    </test> <!-- Authentication Test -->
+  </suite> <!-- Simple User Suite -->
 </testng-results>

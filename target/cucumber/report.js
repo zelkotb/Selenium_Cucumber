@@ -1,196 +1,119 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("FillStudentForm.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("authentication.feature");
 formatter.feature({
-  "line": 1,
-  "name": "fullfill student form if the student is authorized",
-  "description": "",
-  "id": "fullfill-student-form-if-the-student-is-authorized",
-  "keyword": "Feature"
-});
-formatter.scenarioOutline({
-  "line": 4,
-  "name": "fill the student form and submit",
-  "description": "",
-  "id": "fullfill-student-form-if-the-student-is-authorized;fill-the-student-form-and-submit",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline",
-  "tags": [
+  "comments": [
     {
-      "line": 3,
-      "name": "@important"
-    }
-  ]
-});
-formatter.step({
-  "line": 5,
-  "name": "navitate to login \"\u003curl\u003e\"",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
-  "name": "submit \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 7,
-  "name": "user is logged in",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 8,
-  "name": "user fill the form",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 9,
-  "name": "user submit",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 10,
-  "name": "pop up appear with successfull",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 12,
-  "name": "",
-  "description": "",
-  "id": "fullfill-student-form-if-the-student-is-authorized;fill-the-student-form-and-submit;",
-  "rows": [
-    {
-      "cells": [
-        "url",
-        "username",
-        "password"
-      ],
-      "line": 13,
-      "id": "fullfill-student-form-if-the-student-is-authorized;fill-the-student-form-and-submit;;1"
+      "line": 1,
+      "value": "#Author: your.email@your.domain.com"
     },
     {
-      "cells": [
-        "http://localhost:4200/login",
-        "zelkotb",
-        "mamamangepapa"
-      ],
+      "line": 2,
+      "value": "#Keywords Summary :"
+    },
+    {
+      "line": 3,
+      "value": "#Feature: List of scenarios."
+    },
+    {
+      "line": 4,
+      "value": "#Scenario: Business rule through list of steps with arguments."
+    },
+    {
+      "line": 5,
+      "value": "#Given: Some precondition step"
+    },
+    {
+      "line": 6,
+      "value": "#When: Some key actions"
+    },
+    {
+      "line": 7,
+      "value": "#Then: To observe outcomes or validation"
+    },
+    {
+      "line": 8,
+      "value": "#And,But: To enumerate more Given,When,Then steps"
+    },
+    {
+      "line": 9,
+      "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+    },
+    {
+      "line": 10,
+      "value": "#Examples: Container for s table"
+    },
+    {
+      "line": 11,
+      "value": "#Background: List of steps run before each of the scenarios"
+    },
+    {
+      "line": 12,
+      "value": "#\"\"\" (Doc Strings)"
+    },
+    {
+      "line": 13,
+      "value": "#| (Data Tables)"
+    },
+    {
       "line": 14,
-      "id": "fullfill-student-form-if-the-student-is-authorized;fill-the-student-form-and-submit;;2"
+      "value": "#@ (Tags/Labels):To group Scenarios"
+    },
+    {
+      "line": 15,
+      "value": "#\u003c\u003e (placeholder)"
+    },
+    {
+      "line": 16,
+      "value": "#\"\""
+    },
+    {
+      "line": 17,
+      "value": "## (Comments)"
+    },
+    {
+      "line": 18,
+      "value": "#Sample Feature Definition Template"
     }
   ],
-  "keyword": "Examples"
+  "line": 20,
+  "name": "Authentication",
+  "description": "",
+  "id": "authentication",
+  "keyword": "Feature"
 });
 formatter.before({
-  "duration": 50207238600,
+  "duration": 6441243500,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 14,
-  "name": "fill the student form and submit",
+  "line": 23,
+  "name": "Simple Failed Authentication",
   "description": "",
-  "id": "fullfill-student-form-if-the-student-is-authorized;fill-the-student-form-and-submit;;2",
+  "id": "authentication;simple-failed-authentication",
   "type": "scenario",
-  "keyword": "Scenario Outline",
+  "keyword": "Scenario",
   "tags": [
     {
-      "line": 3,
-      "name": "@important"
+      "line": 22,
+      "name": "@Authentication"
     }
   ]
 });
 formatter.step({
-  "line": 5,
-  "name": "navitate to login \"http://localhost:4200/login\"",
-  "matchedColumns": [
-    0
-  ],
+  "line": 24,
+  "name": "navitate to welcom page",
   "keyword": "Given "
 });
-formatter.step({
-  "line": 6,
-  "name": "submit \"zelkotb\" and \"mamamangepapa\"",
-  "matchedColumns": [
-    1,
-    2
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 7,
-  "name": "user is logged in",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 8,
-  "name": "user fill the form",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 9,
-  "name": "user submit",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 10,
-  "name": "pop up appear with successfull",
-  "keyword": "Then "
-});
 formatter.match({
-  "arguments": [
-    {
-      "val": "http://localhost:4200/login",
-      "offset": 19
-    }
-  ],
-  "location": "FillStudentForm.navitate_to_login(String)"
+  "location": "AuthenticationSteps.navitate_to_welcom_page()"
 });
 formatter.result({
-  "duration": 11501462500,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "zelkotb",
-      "offset": 8
-    },
-    {
-      "val": "mamamangepapa",
-      "offset": 22
-    }
-  ],
-  "location": "FillStudentForm.submit_and(String,String)"
-});
-formatter.result({
-  "duration": 817372100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FillStudentForm.user_is_logged_in()"
-});
-formatter.result({
-  "duration": 841858900,
-  "error_message": "java.lang.AssertionError: expected [Student informations s] but found [Student informations]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:135)\r\n\tat org.testng.Assert.assertEquals(Assert.java:116)\r\n\tat org.testng.Assert.assertEquals(Assert.java:190)\r\n\tat org.testng.Assert.assertEquals(Assert.java:200)\r\n\tat steps.FillStudentForm.user_is_logged_in(FillStudentForm.java:31)\r\n\tat ✽.Then user is logged in(FillStudentForm.feature:7)\r\n",
+  "duration": 15744229300,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),\u0027mot de passe incorrect\u0027)]\"}\n  (Session info: chrome\u003d87.0.4280.88)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027BOLT\u0027, ip: \u0027192.168.1.102\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.8\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52925}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c521bc0af10159d8821eeacbbae71fd0\n*** Element info: {Using\u003dxpath, value\u003d//div[contains(text(),\u0027mot de passe incorrect\u0027)]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat pages.BasePage.readText(BasePage.java:129)\r\n\tat pages.LoginPage.checkError(LoginPage.java:52)\r\n\tat steps.AuthenticationSteps.user_is_logged_in_error(AuthenticationSteps.java:48)\r\n\tat steps.AuthenticationSteps.navitate_to_welcom_page(AuthenticationSteps.java:30)\r\n\tat ✽.Given navitate to welcom page(authentication.feature:24)\r\n",
   "status": "failed"
-});
-formatter.match({
-  "location": "FillStudentForm.user_fill_the_form()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "FillStudentForm.user_submit()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "FillStudentForm.pop_up_appear_with_successfull()"
-});
-formatter.result({
-  "status": "skipped"
 });
 formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 1016714500,
+  "duration": 1657261100,
   "status": "passed"
 });
 });
